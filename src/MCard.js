@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import MCard from './MCard';
-import './css/App.css';
+import thumnail from './buta-no-esa.jpg';
+import './css/MCard.css';
 
-class App extends Component {
+class MCard extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+      <div className="MCard">
+        <div className="card-header">
+          <p>Name：tonpachi-debu-ra-</p>
+          <img src={thumnail} className="thumnail" alt="thumnail" />
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
@@ -23,10 +23,10 @@ class App extends Component {
           >
             Learn React
           </a>
-        </header>
+        </div>
       </div>
     );
   }
 }
 
-export default App;
+export default MCard;
